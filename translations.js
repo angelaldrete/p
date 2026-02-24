@@ -1,19 +1,17 @@
-// translations.js
 const translations = {
   es: {
     nav_home: "Inicio",
     nav_about: "Acerca de",
     nav_contact: "Contacto",
     hero_badge: "🧑‍💻 Clases 1 a 1",
-    hero_title: "¡Agenda ya tus clases de programación!",
+    hero_title_line1: "Aprende programación",
+    hero_title_line2: "con un experto",
     hero_subtitle:
       "Aprende a tu ritmo con rutas personalizadas desde fundamentos hasta especializaciones avanzadas.",
     hero_cta_primary: "Ver ruta de aprendizaje",
     hero_cta_secondary: "Contactar",
     hero_stat_years: "años de experiencia",
     hero_stat_flexible: "flexible",
-    hero_title_line1: "Aprende programación",
-    hero_title_line2: "con un experto",
     hero_card1: "Serverless",
     hero_card3: "React",
     hero_scroll: "Desliza",
@@ -63,7 +61,7 @@ const translations = {
     about_experience_title: "Experiencia profesional",
     about_exp1_title: "Consultor independiente",
     about_exp1_company: "RWest Consulting (Remoto)",
-    about_exp1_date: "Ago 2024 - Ene 2026",
+    about_exp1_date: "Ago 2024 — Presente",
     about_exp1_desc1:
       "Desarrollo y mantenimiento de infraestructura cloud y aplicaciones serverless usando Python (AWS Lambda) y JavaScript.",
     about_exp1_desc2:
@@ -73,8 +71,8 @@ const translations = {
     about_exp1_desc4:
       "Establecimiento de pipelines CI/CD con GitHub Actions y flujo Git Flow.",
     about_exp2_title: "Technology Lead",
-    about_exp2_company: "Infosys Technologies (Remote)",
-    about_exp2_date: "Sep 2022 - Nov 2024",
+    about_exp2_company: "Infosys Technologies (Remoto)",
+    about_exp2_date: "Sep 2022 — Ago 2024",
     about_exp2_desc1:
       "Mejora de funcionalidades backend y resolución de bugs en plataforma e-commerce usando Go.",
     about_exp2_desc2:
@@ -116,18 +114,22 @@ const translations = {
     contact_form_ai: "AI / Machine Learning",
     contact_form_games: "Videojuegos",
     contact_form_other: "Otro",
-    contact_form_message: "Mensaje",
-    contact_form_submit: "Enviar mensaje",
     contact_form_experience: "Nivel de experiencia",
     contact_form_exp_select: "-- Selecciona tu nivel --",
     contact_form_exp_beginner: "Principiante (sin experiencia)",
     contact_form_exp_intermediate: "Intermedio (conocimientos básicos)",
     contact_form_exp_advanced: "Avanzado (quiero especializarme)",
+    contact_form_message: "Cuéntame sobre ti y tus objetivos",
+    contact_form_message_placeholder:
+      "Ej: Quiero aprender programación desde cero porque... Me interesa especialmente... Mi objetivo es...",
+    contact_form_help:
+      "⚡ Si tienes problemas con el formulario, envíame un email directamente a angel.aldrete96@gmail.com",
+    contact_form_submit: "Enviar mensaje",
     contact_form_sending: "Enviando...",
     contact_form_error:
       "Hubo un error. Por favor intenta de nuevo o contacta directamente por email.",
-    contact_form_message_placeholder:
-      "Ej: Quiero aprender programación desde cero porque... Me interesa especialmente... Mi objetivo es...",
+    contact_form_captcha_error:
+      "Error de validación del captcha. Por favor intenta de nuevo.",
     contact_info_message:
       "<strong>Evaluación inicial sin costo:</strong> Primero contáctame para conocerte, y si vemos que puedo ayudarte, te compartiré el enlace de Calendly para agendar.",
     contact_success_title: "¡Mensaje enviado!",
@@ -170,15 +172,14 @@ const translations = {
     nav_about: "About",
     nav_contact: "Contact",
     hero_badge: "🧑‍💻 1-on-1 Classes",
-    hero_title: "Book your programming classes now!",
+    hero_title_line1: "Learn programming",
+    hero_title_line2: "with an expert",
     hero_subtitle:
       "Learn at your own pace with personalized paths from fundamentals to advanced specializations.",
     hero_cta_primary: "View learning path",
     hero_cta_secondary: "Contact",
     hero_stat_years: "years of experience",
     hero_stat_flexible: "flexible",
-    hero_title_line1: "Learn programming",
-    hero_title_line2: "with an expert",
     hero_card1: "Serverless",
     hero_card3: "React",
     hero_scroll: "Scroll",
@@ -229,7 +230,7 @@ const translations = {
     about_experience_title: "Professional experience",
     about_exp1_title: "Independent Consultant",
     about_exp1_company: "RWest Consulting (Remote)",
-    about_exp1_date: "Aug 2024 - Jan 2026",
+    about_exp1_date: "Aug 2024 — Present",
     about_exp1_desc1:
       "Develop and maintain cloud infrastructure and serverless applications using Python (AWS Lambda) and JavaScript.",
     about_exp1_desc2:
@@ -240,7 +241,7 @@ const translations = {
       "Establish CI/CD pipelines with GitHub Actions and Git Flow model.",
     about_exp2_title: "Technology Lead",
     about_exp2_company: "Infosys Technologies (Remote)",
-    about_exp2_date: "Sep 2022 - Nov 2024",
+    about_exp2_date: "Sep 2022 — Aug 2024",
     about_exp2_desc1:
       "Enhanced backend functionalities and resolved bugs for an e-commerce platform using Go.",
     about_exp2_desc2:
@@ -283,18 +284,21 @@ const translations = {
     contact_form_ai: "AI / Machine Learning",
     contact_form_games: "Game development",
     contact_form_other: "Other",
-    contact_form_message: "Message",
-    contact_form_submit: "Send message",
     contact_form_experience: "Experience level",
     contact_form_exp_select: "-- Select your level --",
     contact_form_exp_beginner: "Beginner (no experience)",
     contact_form_exp_intermediate: "Intermediate (basic knowledge)",
     contact_form_exp_advanced: "Advanced (want to specialize)",
+    contact_form_message: "Tell me about yourself and your goals",
+    contact_form_message_placeholder:
+      "E.g: I want to learn programming from scratch because... I'm especially interested in... My goal is...",
+    contact_form_help:
+      "⚡ If you have any issues with the form, send me an email to angel.aldrete96@gmail.com",
+    contact_form_submit: "Send message",
     contact_form_sending: "Sending...",
     contact_form_error:
       "There was an error. Please try again or contact directly by email.",
-    contact_form_message_placeholder:
-      "E.g: I want to learn programming from scratch because... I'm especially interested in... My goal is...",
+    contact_form_captcha_error: "Captcha validation error. Please try again.",
     contact_info_message:
       "<strong>Free initial assessment:</strong> First contact me to get to know you, and if we see that I can help you, I'll share the Calendly link to schedule.",
     contact_success_title: "Message sent!",

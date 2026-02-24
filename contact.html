@@ -51,6 +51,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- GOOGLE RECAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- TUS SCRIPTS -->
     <script defer src="translations.js"></script>
     <script defer src="script.js"></script>
     <script defer src="contact.js"></script>
@@ -286,6 +289,33 @@
                     data-i18n-placeholder="contact_form_message_placeholder"
                     placeholder="Ej: Quiero aprender programación desde cero porque... Me interesa especialmente... Mi objetivo es..."
                   ></textarea>
+                </div>
+
+                <!-- RECAPTCHA CHECKBOX -->
+                <div class="form-group">
+                  <div
+                    class="g-recaptcha"
+                    data-sitekey="6LfKwHYsAAAAAI_9h8miSS7riA9V_c4cdKbogjov"
+                  ></div>
+                </div>
+
+                <!-- MENSAJE DE RESPALDO POR EMAIL -->
+                <div
+                  style="
+                    font-size: 0.85rem;
+                    opacity: 0.7;
+                    margin: 10px 0;
+                    text-align: center;
+                  "
+                  data-i18n="contact_form_help"
+                >
+                  ⚡ Si tienes problemas con el formulario, envíame un email
+                  directamente a
+                  <a
+                    href="mailto:angel.aldrete96@gmail.com?subject=Contacto%20desde%20la%20web"
+                    style="color: #f0b90b"
+                    >angel.aldrete96@gmail.com</a
+                  >
                 </div>
 
                 <button
