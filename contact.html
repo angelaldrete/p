@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Aldrete - Clases de programación</title>
+    <meta
+      name="description"
+      content="Clases de programación personalizadas con Angel Aldrete."
+    />
+    <meta
+      name="keywords"
+      content="clases de programación, aprender a programar"
+    />
+    <meta name="author" content="Angel Aldrete" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://angelaldrete.com/contact.html" />
+    <meta
+      property="og:title"
+      content="Angel Aldrete - Clases de programación"
+    />
+    <meta
+      property="og:description"
+      content="Clases de programación personalizadas con Angel Aldrete."
+    />
+    <meta
+      property="og:image"
+      content="https://angelaldrete.com/public/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://angelaldrete.com/contact.html" />
+    <meta
+      name="twitter:title"
+      content="Angel Aldrete - Clases de programación"
+    />
+    <meta
+      name="twitter:description"
+      content="Clases 1 a 1 personalizadas. Aprende a tu ritmo."
+    />
+    <meta
+      name="twitter:image"
+      content="https://angelaldrete.com/public/og-image.jpg"
+    />
+    <link rel="canonical" href="https://angelaldrete.com/contact.html" />
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script defer src="translations.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="contact.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          loading="lazy"
+          src="public/mobileBtn.svg"
+          class="mobile_btn"
+          alt="Menú"
+        />
+        <div class="language-selector">
+          <button class="lang-btn active" data-lang="es">ES</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <ul class="links">
+          <li><a href="index.html" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="about.html" data-i18n="nav_about">Acerca de</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-hero">
+        <div class="contact-container">
+          <h1
+            class="contact-title animate__animated"
+            data-animated="animate__fadeInDown"
+            data-i18n="contact_title"
+          >
+            Hablemos de tus metas
+          </h1>
+          <p
+            class="contact-subtitle animate__animated"
+            data-animated="animate__fadeInUp"
+            data-i18n="contact_subtitle"
+          >
+            Cuéntame sobre ti y agendemos una evaluación sin costo.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-content">
+        <div class="contact-container">
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h2 data-i18n="contact_info_title">Información de contacto</h2>
+
+              <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                  <h3 data-i18n="contact_location_title">Ubicación</h3>
+                  <p data-i18n="contact_location">
+                    Mexicali, Baja California, México
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">📞</div>
+                <div>
+                  <h3 data-i18n="contact_phone_title">Teléfono</h3>
+                  <p>+52 686 112 16 82</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">✉️</div>
+                <div>
+                  <h3 data-i18n="contact_email_title">Email</h3>
+                  <p>angel.aldrete96@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">💬</div>
+                <div>
+                  <h3 data-i18n="contact_social_title">Redes sociales</h3>
+                  <div class="contact-social">
+                    <a
+                      href="https://www.linkedin.com/in/angel-aldrete-mart%C3%ADnez-4105a8136/"
+                      target="_blank"
+                      >LinkedIn</a
+                    >
+                    <a href="https://github.com/angelaldrete" target="_blank"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="info-message">
+                <div class="message-icon">💡</div>
+                <p data-i18n="contact_info_message">
+                  <strong>Evaluación inicial sin costo:</strong> Primero
+                  contáctame para conocerte, y si vemos que puedo ayudarte, te
+                  compartiré el enlace de Calendly para agendar.
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+              <h2 data-i18n="contact_form_title">Envíame un mensaje</h2>
+
+              <div
+                id="successMessage"
+                class="success-message"
+                style="display: none"
+              >
+                <div class="success-icon">✅</div>
+                <h3 data-i18n="contact_success_title">¡Mensaje enviado!</h3>
+                <p data-i18n="contact_success_text">
+                  Gracias por contactarme. En breve revisaré tu mensaje y te
+                  responderé. Si todo está bien, te compartiré el enlace de
+                  Calendly para que agendemos tu evaluación sin costo.
+                </p>
+                <div class="success-note">
+                  <span>⏱️</span>
+                  <p data-i18n="contact_success_note">
+                    Respuesta en máximo 24 horas.
+                  </p>
+                </div>
+              </div>
+
+              <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                  <label for="name" data-i18n="contact_form_name"
+                    >Nombre completo</label
+                  >
+                  <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" data-i18n="contact_form_email"
+                    >Correo electrónico</label
+                  >
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="interest" data-i18n="contact_form_interest"
+                    >Área de interés</label
+                  >
+                  <select id="interest" name="interest" required>
+                    <option
+                      value=""
+                      disabled
+                      selected
+                      data-i18n="contact_form_select"
+                    >
+                      -- Selecciona una opción --
+                    </option>
+                    <option
+                      value="fundamentos"
+                      data-i18n="contact_form_fundamentos"
+                    >
+                      Fundamentos de programación
+                    </option>
+                    <option value="frontend" data-i18n="contact_form_frontend">
+                      Frontend
+                    </option>
+                    <option value="backend" data-i18n="contact_form_backend">
+                      Backend
+                    </option>
+                    <option
+                      value="fullstack"
+                      data-i18n="contact_form_fullstack"
+                    >
+                      Fullstack
+                    </option>
+                    <option value="devops" data-i18n="contact_form_devops">
+                      DevOps
+                    </option>
+                    <option value="ai" data-i18n="contact_form_ai">
+                      AI / Machine Learning
+                    </option>
+                    <option value="games" data-i18n="contact_form_games">
+                      Videojuegos
+                    </option>
+                    <option value="other" data-i18n="contact_form_other">
+                      Otro
+                    </option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="experience" data-i18n="contact_form_experience"
+                    >Nivel de experiencia</label
+                  >
+                  <select id="experience" name="experience" required>
+                    <option
+                      value=""
+                      disabled
+                      selected
+                      data-i18n="contact_form_exp_select"
+                    >
+                      -- Selecciona tu nivel --
+                    </option>
+                    <option
+                      value="beginner"
+                      data-i18n="contact_form_exp_beginner"
+                    >
+                      Principiante (sin experiencia)
+                    </option>
+                    <option
+                      value="intermediate"
+                      data-i18n="contact_form_exp_intermediate"
+                    >
+                      Intermedio (conocimientos básicos)
+                    </option>
+                    <option
+                      value="advanced"
+                      data-i18n="contact_form_exp_advanced"
+                    >
+                      Avanzado (quiero especializarme)
+                    </option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="message" data-i18n="contact_form_message"
+                    >Cuéntame sobre ti y tus objetivos</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    data-i18n-placeholder="contact_form_message_placeholder"
+                    placeholder="Ej: Quiero aprender programación desde cero porque... Me interesa especialmente... Mi objetivo es..."
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  class="submit-btn"
+                  data-i18n="contact_form_submit"
+                >
+                  Enviar mensaje
+                </button>
+                <div
+                  id="formFeedback"
+                  class="form-feedback"
+                  style="display: none"
+                ></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-faq">
+        <div class="contact-container">
+          <h2 class="faq-title" data-i18n="contact_faq_title">
+            Preguntas frecuentes
+          </h2>
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h3 data-i18n="contact_faq1_q">¿Cómo son las clases?</h3>
+              <p data-i18n="contact_faq1_a">
+                Son clases 1 a 1 en línea, personalizadas según tu ritmo y
+                objetivos. Cada sesión tiene una duración mínima de 1.5 horas.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3 data-i18n="contact_faq2_q">¿Qué necesito para empezar?</h3>
+              <p data-i18n="contact_faq2_a">
+                Solo necesitas una computadora, conexión a internet y muchas
+                ganas de aprender. Yo te guío en el resto.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3 data-i18n="contact_faq3_q">¿Hay evaluación inicial?</h3>
+              <p data-i18n="contact_faq3_a">
+                Sí, ofrezco una evaluación inicial
+                <strong>sin costo</strong> para conocer tu nivel y objetivos.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3 data-i18n="contact_faq4_q">¿Puedo pagar por clase?</h3>
+              <p data-i18n="contact_faq4_a">
+                Sí, ofrezco diferentes planes: pago por clase, paquetes
+                mensuales o programas personalizados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>
+          &copy; <span id="current-year"></span> Angel Aldrete.
+          <span data-i18n="footer_rights">Todos los derechos reservados.</span>
+        </p>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://github.com/angelaldrete"
+              target="_blank"
+              aria-label="GitHub"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/angel-aldrete-mart%C3%ADnez-4105a8136/"
+              target="_blank"
+              aria-label="LinkedIn"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Angel Aldrete Martinez",
+        "jobTitle": "Senior Software Engineer & Programming Mentor",
+        "description": "Clases de programación 1 a 1 personalizadas",
+        "url": "https://angelaldrete.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/angel-aldrete-mart%C3%ADnez-4105a8136/",
+          "https://github.com/angelaldrete"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mexicali",
+          "addressRegion": "Baja California",
+          "addressCountry": "México"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOccupationalCredential",
+        "name": "Clases de programación personalizadas",
+        "description": "Rutas de aprendizaje flexibles desde fundamentos hasta especializaciones",
+        "educationalLevel": "Principiante a Avanzado",
+        "teaches": [
+          "Programación básica",
+          "Frontend (React, Vue)",
+          "Backend (Node.js, Python, Go)",
+          "AWS Serverless",
+          "DevOps",
+          "Estructuras de datos",
+          "Arquitectura de software"
+        ]
+      }
+    </script>
+  </body>
+</html>

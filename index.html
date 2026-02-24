@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Aldrete - Clases de programación</title>
+    <meta
+      name="description"
+      content="Clases de programación personalizadas con Angel Aldrete."
+    />
+    <meta
+      name="keywords"
+      content="clases de programación, aprender a programar"
+    />
+    <meta name="author" content="Angel Aldrete" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://angelaldrete.com/" />
+    <meta
+      property="og:title"
+      content="Angel Aldrete - Clases de programación"
+    />
+    <meta
+      property="og:description"
+      content="Clases de programación personalizadas con Angel Aldrete."
+    />
+    <meta
+      property="og:image"
+      content="https://angelaldrete.com/public/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://angelaldrete.com/" />
+    <meta
+      name="twitter:title"
+      content="Angel Aldrete - Clases de programación"
+    />
+    <meta
+      name="twitter:description"
+      content="Clases 1 a 1 personalizadas. Aprende a tu ritmo."
+    />
+    <meta
+      name="twitter:image"
+      content="https://angelaldrete.com/public/og-image.jpg"
+    />
+    <link rel="canonical" href="https://angelaldrete.com/" />
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="public/hero.jpg" as="image" />
+    <script defer src="translations.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="public/mobileBtn.svg" class="mobile_btn" alt="Menú" />
+        <div class="language-selector">
+          <button class="lang-btn active" data-lang="es">ES</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <ul class="links">
+          <li><a href="/" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="about.html" data-i18n="nav_about">Acerca de</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-background">
+          <div class="hero-shape shape-1"></div>
+          <div class="hero-shape shape-2"></div>
+          <div class="hero-shape shape-3"></div>
+          <div class="hero-shape shape-4"></div>
+          <div class="hero-grid"></div>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="hero-badge-wrapper">
+              <span class="hero-badge" data-i18n="hero_badge"
+                >🧑‍💻 Clases 1 a 1</span
+              >
+              <span class="hero-badge-line"></span>
+            </div>
+
+            <h1
+              class="hero-title animate__animated"
+              data-animated="animate__fadeInUp"
+            >
+              <span data-i18n="hero_title_line1">Aprende programación</span
+              ><br />
+              <span class="hero-title-highlight" data-i18n="hero_title_line2"
+                >con un experto</span
+              >
+            </h1>
+
+            <p
+              class="hero-description animate__animated"
+              data-animated="animate__fadeInUp"
+              data-i18n="hero_subtitle"
+            >
+              Aprende a tu ritmo con rutas personalizadas desde fundamentos
+              hasta especializaciones avanzadas.
+            </p>
+
+            <div
+              class="hero-cta animate__animated"
+              data-animated="animate__fadeInUp"
+            >
+              <a
+                href="#roadmap"
+                class="btn btn-primary"
+                data-i18n="hero_cta_primary"
+              >
+                <span>Ver ruta de aprendizaje</span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a
+                href="contact.html"
+                class="btn btn-secondary"
+                data-i18n="hero_cta_secondary"
+              >
+                <span>Contactar</span>
+              </a>
+            </div>
+
+            <div
+              class="hero-stats animate__animated"
+              data-animated="animate__fadeInUp"
+            >
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number">6+</span>
+                <span class="stat-label" data-i18n="hero_stat_years"
+                  >años experiencia</span
+                >
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number">∞</span>
+                <span class="stat-label" data-i18n="hero_stat_flexible"
+                  >flexible</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image-container">
+              <div class="hero-image-wrapper">
+                <img
+                  src="public/hero.jpg"
+                  alt="Angel Aldrete"
+                  class="hero-image"
+                />
+                <div class="hero-image-overlay"></div>
+                <div class="hero-image-glow"></div>
+              </div>
+
+              <div class="floating-card card-1">
+                <div class="card-icon">⚡</div>
+                <div class="card-content">
+                  <span class="card-label" data-i18n="hero_card1"
+                    >Serverless</span
+                  >
+                  <span class="card-value">AWS</span>
+                </div>
+              </div>
+
+              <div class="floating-card card-2">
+                <div class="card-icon">⚛️</div>
+                <div class="card-content">
+                  <span class="card-label" data-i18n="hero_card3">React</span>
+                  <span class="card-value">Node.js</span>
+                </div>
+              </div>
+
+              <div class="floating-tech-icons">
+                <span class="tech-icon">JS</span>
+                <span class="tech-icon">TS</span>
+                <span class="tech-icon">Go</span>
+                <span class="tech-icon">Docker</span>
+                <span class="tech-icon">AWS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+          <span class="scroll-text" data-i18n="hero_scroll">Desliza</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <section class="clases">
+        <div class="programa">
+          <div class="programa_content">
+            <h2
+              class="programa_title animate__animated"
+              data-animated="animate__fadeInDown"
+              data-i18n="programa_title"
+            >
+              Conoce tu programa
+            </h2>
+            <p
+              class="programa_description animate__animated"
+              data-animated="animate__fadeInDown"
+              data-i18n="programa_description"
+            >
+              Programa 1 a 1 en línea, personalizado, con 1:30 h como mínimo de
+              duración. Tú decides el tiempo que tomarás y la manera en que
+              estructuras tu horario.
+            </p>
+          </div>
+          <img
+            loading="lazy"
+            src="public/classes.svg"
+            alt=""
+            class="programa_img animate__animated"
+            data-animated="animate__fadeInDown"
+          />
+        </div>
+
+        <div class="ruta">
+          <img
+            loading="lazy"
+            src="public/learning.svg"
+            alt=""
+            class="ruta_img animate__animated"
+            data-animated="animate__fadeInDown"
+          />
+          <div class="ruta_content">
+            <h2
+              class="ruta_title animate__animated"
+              data-animated="animate__fadeInDown"
+              data-i18n="ruta_title"
+            >
+              Ruta 100% personalizada
+            </h2>
+            <p
+              class="ruta_description animate__animated animate__faster"
+              data-animated="animate__fadeInDown"
+              data-i18n="ruta_description"
+            >
+              Haré una evaluación inicial <strong>sin costo</strong> para
+              evaluar dónde te encuentras, hacia dónde quieres llegar y cómo
+              llegar a donde quieras. Con mis años de experiencia podré ayudarte
+              a resolver tus dudas de manera profesional.
+            </p>
+          </div>
+        </div>
+
+        <div class="meta">
+          <div class="meta_content">
+            <h2
+              class="meta_title animate__animated animate__faster"
+              data-animated="animate__fadeInDown"
+              data-i18n="meta_title"
+            >
+              Llega a tus metas
+            </h2>
+            <p
+              class="meta_description animate__animated"
+              data-animated="animate__fadeInDown"
+              data-i18n="meta_description"
+            >
+              Una vez que llegues a tus metas podrás prepararte para cualquier
+              tipo de reto en programación, tales como certificaciones o algún
+              tipo de proyecto que sea de tu interés.
+            </p>
+          </div>
+          <img
+            loading="lazy"
+            src="public/goals.svg"
+            alt=""
+            class="meta_img animate__animated"
+            data-animated="animate__fadeInDown"
+          />
+        </div>
+      </section>
+
+      <section class="roadmap" id="roadmap">
+        <h2
+          class="roadmap_title animate__animated"
+          data-animated="animate__fadeInDown"
+          data-i18n="roadmap_title"
+        >
+          La ruta de aprendizaje flexible
+        </h2>
+        <p
+          class="roadmap_subtitle animate__animated"
+          data-animated="animate__fadeInDown"
+          data-i18n="roadmap_subtitle"
+        >
+          Este es nuestro mapa base. Empezamos por los cimientos y avanzamos,
+          pero <strong>tú decides dónde quieres especializarte</strong>. El
+          viaje es tuyo.
+        </p>
+
+        <div class="roadmap-container">
+          <div class="roadmap-card level-1">
+            <div class="card-content">
+              <span class="card-level">01</span>
+              <h3 data-i18n="roadmap_lvl1_title">Fundamentos</h3>
+              <p data-i18n="roadmap_lvl1_desc">
+                Lógica de programación, variables, algoritmos. Construimos tu
+                base sólida.
+              </p>
+              <div class="card-topics">
+                <span>Algoritmos</span>
+                <span>Variables</span>
+                <span>Estructuras de control</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="roadmap-card level-2">
+            <div class="card-content">
+              <span class="card-level">02</span>
+              <h3 data-i18n="roadmap_lvl2_title">Núcleo web</h3>
+              <p data-i18n="roadmap_lvl2_desc">
+                HTML, CSS, JavaScript y DOM. Creando experiencias interactivas.
+              </p>
+              <div class="card-topics">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>DOM</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="roadmap-card level-3 frontend-path">
+            <div class="card-content">
+              <span class="card-level">03</span>
+              <h3 data-i18n="roadmap_lvl3_frontend">Frontend pro</h3>
+              <p data-i18n="roadmap_lvl3_frontend_desc">
+                Frameworks modernos, estado, UX, rendimiento.
+              </p>
+              <div class="card-topics">
+                <span>React</span>
+                <span>Vue</span>
+                <span>Estado</span>
+                <span>UX</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="roadmap-card level-4 backend-path">
+            <div class="card-content">
+              <span class="card-level">04</span>
+              <h3 data-i18n="roadmap_lvl4_backend">Backend pro</h3>
+              <p data-i18n="roadmap_lvl4_backend_desc">
+                APIs, bases de datos, servidores, seguridad.
+              </p>
+              <div class="card-topics">
+                <span>APIs</span>
+                <span>Bases de datos</span>
+                <span>Servidores</span>
+                <span>Autenticación</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="roadmap-specializations">
+            <div class="spec-card">
+              <span class="spec-number">05</span>
+              <h4 data-i18n="roadmap_spec_dsa_title">Estructuras de datos</h4>
+              <p data-i18n="roadmap_spec_dsa_desc">
+                Algoritmos avanzados, optimización
+              </p>
+            </div>
+            <div class="spec-card">
+              <span class="spec-number">06</span>
+              <h4 data-i18n="roadmap_spec_arch_title">Arquitectura</h4>
+              <p data-i18n="roadmap_spec_arch_desc">
+                Patrones, diseño de sistemas
+              </p>
+            </div>
+            <div class="spec-card">
+              <span class="spec-number">07</span>
+              <h4 data-i18n="roadmap_spec_devops_title">DevOps</h4>
+              <p data-i18n="roadmap_spec_devops_desc">CI/CD, Cloud, Docker</p>
+            </div>
+            <div class="spec-card">
+              <span class="spec-number">08</span>
+              <h4 data-i18n="roadmap_spec_ai_title">AI / IoT</h4>
+              <p data-i18n="roadmap_spec_ai_desc">
+                Machine Learning, dispositivos
+              </p>
+            </div>
+            <div class="spec-card">
+              <span class="spec-number">09</span>
+              <h4 data-i18n="roadmap_spec_games_title">Videojuegos</h4>
+              <p data-i18n="roadmap_spec_games_desc">
+                Unity, Unreal, Game Design
+              </p>
+            </div>
+            <div class="spec-card">
+              <span class="spec-number">10</span>
+              <h4 data-i18n="roadmap_spec_more_title">Y más</h4>
+              <p data-i18n="roadmap_spec_more_desc">
+                Móvil, ciberseguridad, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>
+          &copy; <span id="current-year"></span> Angel Aldrete.
+          <span data-i18n="footer_rights">Todos los derechos reservados.</span>
+        </p>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://github.com/angelaldrete"
+              target="_blank"
+              aria-label="GitHub"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/angel-aldrete-mart%C3%ADnez-4105a8136/"
+              target="_blank"
+              aria-label="LinkedIn"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Angel Aldrete Martinez",
+        "jobTitle": "Senior Software Engineer & Programming Mentor",
+        "description": "Clases de programación 1 a 1 personalizadas",
+        "url": "https://angelaldrete.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/angel-aldrete-mart%C3%ADnez-4105a8136/",
+          "https://github.com/angelaldrete"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mexicali",
+          "addressRegion": "Baja California",
+          "addressCountry": "México"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOccupationalCredential",
+        "name": "Clases de programación personalizadas",
+        "description": "Rutas de aprendizaje flexibles desde fundamentos hasta especializaciones",
+        "educationalLevel": "Principiante a Avanzado",
+        "teaches": [
+          "Programación básica",
+          "Frontend (React, Vue)",
+          "Backend (Node.js, Python, Go)",
+          "AWS Serverless",
+          "DevOps",
+          "Estructuras de datos",
+          "Arquitectura de software"
+        ]
+      }
+    </script>
+  </body>
+</html>
