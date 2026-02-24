@@ -15,14 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    if (typeof grecaptcha !== "undefined") {
-      const captchaResponse = grecaptcha.getResponse();
-      if (!captchaResponse) {
-        alert("Por favor completa el reCAPTCHA");
-        return;
-      }
-    }
-
     const btn = form.querySelector(".submit-btn");
     const lang = localStorage.getItem("preferred-language") || "es";
     const originalText = btn.textContent;
@@ -47,30 +39,14 @@ document.addEventListener("DOMContentLoaded", () => {
         if (typeof gtag !== "undefined")
           gtag("event", "form_submission", { event_category: "contact" });
       } else {
-        const data = await res.json();
-        console.error("Formspree error:", data);
-
-        if (data.error && data.error.includes("captcha")) {
-          throw new Error("captcha_error");
-        } else {
-          throw new Error("form_error");
-        }
+        throw new Error("form_error");
       }
     } catch (err) {
       feedback.style.display = "block";
       feedback.className = "form-feedback error";
 
-      let errorMessage =
+      const errorMessage =
         translations[lang]?.contact_form_error || "Error. Intenta de nuevo.";
-
-      if (err.message === "captcha_error") {
-        errorMessage =
-          "Error de validación del captcha. Por favor intenta de nuevo.";
-        // Resetear reCAPTCHA
-        if (typeof grecaptcha !== "undefined") {
-          grecaptcha.reset();
-        }
-      }
 
       feedback.textContent = errorMessage;
       btn.textContent = originalText;
